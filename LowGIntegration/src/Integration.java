@@ -39,7 +39,7 @@ public class Integration {
 			System.out.println("Comment dit-on " + numPractice + " en Fran\u00E7ais?"); //Escape sentence c cedille
 			scan.nextLine(); 
 			getNumber = scan.nextLine();
-			//compareTo method, compares to strings to see if they are equal. If they are equal returnns the value 0
+			//compareTo method, compares two strings to see if they are equal. If they are equal returns the value 0
 			if(numSeven.compareTo(getNumber) == 0){
 				System.out.println("Tr\u00E8s bien!");
 			}
@@ -68,7 +68,7 @@ public class Integration {
 			}
 			
 			System.out.println("Quel est le résultat de sept divisé par cinq");
-			System.out.println("7/8="+numPractice/double(numLetters));
+			System.out.println("7/8="+numPractice/(double)numLetters); //Casting 
 			
 			scan.close();
 			
