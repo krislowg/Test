@@ -14,7 +14,8 @@ public class Integration {
 		/*Documentation:
 		 byte: 8-bit signed two's complement integer. Minimum value -128 and maximum 127.
 		 Short: 16 bit signed two's complement integer. Minimum value -32768 and maximum 32767.
-		 Int: 32-bit signed two's complement integer. Minimum value -231 and a maximum value of 231-1. Use for an unsigned integer.
+		 Int: 32-bit signed two's complement integer. Minimum value -231 and a maximum value of 231-1. 
+		 Use for an unsigned integer.
 		 Long: 64-bit two's complement integer. Minimum -263 and a maximum 263-1.
 		 Float: 32-bit IEEE 753 floating point. 
   		 Double: 64 bit IEEE 754 floating point.  
@@ -36,7 +37,9 @@ public class Integration {
 		
 		if (option==1) {
 			System.out.println("Let\'s start with numbers!"); //Escape sequence single quote
-			System.out.println("Comment dit-on " + numPractice + " en Fran\u00E7ais?"); //Escape sentence c cedille
+			
+			//Write the numbers in french
+			System.out.println("Comment dit-on " + numPractice + " en Fran\u00E7ais?"); //Escape sentence
 			scan.nextLine(); 
 			getNumber = scan.nextLine();
 			//compareTo method, compares two strings to see if they are equal. If they are equal returns the value 0
@@ -46,6 +49,8 @@ public class Integration {
 			else {
 				System.out.println("Non, c\'est sept.");
 			}
+			
+			//True or False.
 			System.out.println(NUMDECIMAL + "en Fran\u00E7ais c\'est dix- huit et cinquante-trois. Vrai ou Faux?");
 			answer = scan.nextLine();
 			answUp = answer.toUpperCase(); //toUpperCase() method converts al the letters of a string to Upper Case 
@@ -56,17 +61,19 @@ public class Integration {
 			else {
 				System.out.println("Non, c\'est Vrai.");
 			}
-				
+			
+			//Number of letters in a word
 			System.out.println("Combien de lettres le mot " + greeting +" a-t-il?");	
 			String nLet = scan.nextLine();
 			numLetters= Integer.parseInt(nLet); //Converts a string to an int
-			if(greeting.length()==numLetters) { // String length() method to know the number of letters on the greeting string 
+			if(greeting.length()==numLetters) { //Length() method to know the number of letters on the greeting string 
 				System.out.println("Pas mal!");
 			}
 			else {
 				System.out.println("Non, la bonne reponse est " + greeting.length() + ".");
 			}
 			
+			//Operations
 			System.out.println("Quel est le résultat de sept divisé par cinq");
 			System.out.println("7/8="+numPractice/(double)numLetters); //Casting 
 			
