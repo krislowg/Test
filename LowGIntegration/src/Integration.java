@@ -67,7 +67,12 @@ public class Integration {
 				System.out.println("Non, la bonne reponse est " + greeting.length() + ".");
 			}
 			
+			System.out.println("Quel est le résultat de sept divisé par cinq");
+			System.out.println("7/8="+numPractice/double(numLetters));
+			
 			scan.close();
+			
+			System.out.println("Au revoir!");
 			
 		}
 
