@@ -81,6 +81,12 @@ public class Integration {
 			
 			System.out.println("Au revoir!");
 			
+			/*Variable: is a named memory location that can be assigned a value.
+			Scope: determines what objects are visible to other parts of the program. 
+			It has two categories: global and local.
+			Final: is a non-access modifier applicable only to a variable, a method or a class.
+			Casting: instruction to the compiler to convert one type into another.*/
+			
 		}
 
 	}
