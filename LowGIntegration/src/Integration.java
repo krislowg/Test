@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // Yoisi Kristy Low Gonzalez
 
-//Program that helps document my French classes 
+//Program that helps document my French classes. It will start with the numbers. 
 public class Integration {
 
 	public static void main(String[] args) {
