@@ -23,7 +23,7 @@ public class Integration {
   		 String: Strings are a sequence of characters. Strings are objects.
 		 */
 		final double NUMDECIMAL = 18.53; //Constant decimal
-		final int numPractice = 7; //Constant number 
+		int numPractice = 7; //Constant number 
 		String numSeven = "sept";
 		String getNumber;
 		String answer;
