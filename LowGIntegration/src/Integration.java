@@ -5,6 +5,14 @@ import java.util.Scanner;
 // Program that helps document my French classes
 public class Integration {
 
+  public static void displayMenu(){
+	System.out.println("MENU");
+	System.out.println("1. Numbers");
+	System.out.println("2. Famille");
+	System.out.println("3. Pays");
+	System.out.println("4. Possessifs");
+	System.out.println("5. Introductory Dialogue");
+}
   public static void main(String[] args) {
 
     Car myCar = new Car();
@@ -82,6 +90,7 @@ public class Integration {
     }
 
   }
+  
 }
 
 
