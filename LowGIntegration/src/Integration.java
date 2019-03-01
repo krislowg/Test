@@ -161,12 +161,12 @@ public class Integration {
         break;
         
     }
-    	System.out.println("Do you want to continue learning?");
-    	System.out.println("Yes:1 OR No:0");
-    	System.out.println("Enter your answer: ");
+    System.out.println("Do you want to continue learning?");
+    System.out.println("Yes:1 OR No:0");
+    System.out.println("Enter your answer: ");
     
-    	keepL = scan.nextInt();
-    	keepLearning= keepL == 0 ? false : true;//ternary construct
+    keepL = scan.nextInt();
+    keepLearning= keepL == 0 ? false : true;//ternary construct
     }
     
 }
