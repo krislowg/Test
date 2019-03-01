@@ -12,7 +12,7 @@ Requirements
 -Compare two String objects by using the compareTo and equals methods and make a -comment describing how == works with objects: Case 1. The comment is at the end of -the code
 -Use +, -, *, /, %: used in the operation methods.
 -Use ++: case 1. Inside the do-while loop
--Use --: case 3.Inside the for loop.
+-Use --: case 3. Inside the for loop.
 -Use +=: case 1. Inside the do-while to increment the value of j in the string array. 
 -Use relational operators: Case 2. In the while condition.
 -Use conditional operators: Case 2. In the while condition.
@@ -22,6 +22,7 @@ Requirements
 -Create and use do/while loops: Case 1.
 -Use break in a loop with a comment describing what it does. Case 1. Inside the do-while loop
 -Use continue in a loop with a comment describing what it does: Case 3. Inside the for loop.
+
 =========================================================================================================
 PSI 1
 Add your name as a comment at top of every file
