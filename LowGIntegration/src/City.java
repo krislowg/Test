@@ -8,6 +8,6 @@ public class City {
 	*/
 	
 	public void doActivities(){
-		System.out.println("Vous peutez faire beaucoup activites");
+		System.out.println("Vous pouvez faire beaucoup activites");
 	}
 }
