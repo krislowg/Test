@@ -13,6 +13,6 @@ public class Chamonix extends City {
 	*/
 	public void doActivities(){
 		super.doActivities();
-		System.out.println("En Chamonix, vous peutez faire du ski in la Aiguille du midi " /*+ mountainName*/);
+		System.out.println("En Chamonix, vous pouvez faire du ski in la Aiguille du midi " /*+ mountainName*/);
 	}
 }
