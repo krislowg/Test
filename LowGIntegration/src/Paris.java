@@ -1,4 +1,10 @@
 
+/**
+ * Subclass. Child of City.
+ * Represents the things that you can do in Paris.
+ * @author Kristy Low.
+ *
+ */
 public class Paris extends City {
   // private String towerName;
 
