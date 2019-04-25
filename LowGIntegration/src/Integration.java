@@ -185,7 +185,6 @@ public class Integration {
       case 4:
         System.out
             .println("You have picked: " + option + "Introductory monologue");
-        System.out.println("Coming very soon! Saving the best for the FINAL");
         System.out.println("Bonjour, Je m'appelle " + stud1.getName() + ".");
         System.out.println("J'ai " + stud1.getAge() + " ans.");
         System.out.println("Je suis " + stud1.getClassification());
