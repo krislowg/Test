@@ -1,4 +1,10 @@
 
+/**
+ * Subclass. Child of City.
+ * Represents the things that you can do in Nice.
+ * @author Kristy Low
+ *
+ */
 public class Nice extends City {
   // private String plageName;
 
