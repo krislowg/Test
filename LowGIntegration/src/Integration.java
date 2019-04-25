@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * Semester: Spring 2019 
+ * Semester: Spring 2019. 
  * Program that helps document my French classes.
  * Beginners 1.
  * @author Kristy Low
